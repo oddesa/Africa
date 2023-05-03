@@ -45,6 +45,8 @@
 		985CFCB82A00471B004540F6 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CFCB72A00471B004540F6 /* LocationModel.swift */; };
 		98A7D1FD2A00120F008623B5 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A7D1FC2A00120F008623B5 /* VideoModel.swift */; };
 		98A7D2002A001251008623B5 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A7D1FF2A001251008623B5 /* VideoListItemView.swift */; };
+		FA7782DB2A014D4E004C12D1 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7782DA2A014D4E004C12D1 /* MapAnnotationView.swift */; };
+		FA7782DD2A0156F8004C12D1 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7782DC2A0156F8004C12D1 /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		985CFCB72A00471B004540F6 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		98A7D1FC2A00120F008623B5 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		98A7D1FF2A001251008623B5 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		FA7782DA2A014D4E004C12D1 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		FA7782DC2A0156F8004C12D1 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,8 @@
 				985418B32A0004520008188F /* ExternalWeblinkView.swift */,
 				98A7D1FF2A001251008623B5 /* VideoListItemView.swift */,
 				985CFCB02A0040C6004540F6 /* VideoPlayerView.swift */,
+				FA7782DA2A014D4E004C12D1 /* MapAnnotationView.swift */,
+				FA7782DC2A0156F8004C12D1 /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,6 +338,7 @@
 				985418B22A00000D0008188F /* InsetMapView.swift in Sources */,
 				985418A229FFD2540008188F /* CodableBundle+Extensions.swift in Sources */,
 				9854186429FFAF4D0008188F /* AfricaApp.swift in Sources */,
+				FA7782DB2A014D4E004C12D1 /* MapAnnotationView.swift in Sources */,
 				98A7D1FD2A00120F008623B5 /* VideoModel.swift in Sources */,
 				9854189229FFB5E80008188F /* VideoListView.swift in Sources */,
 				985418AE29FFF7600008188F /* InsetGalleryView.swift in Sources */,
@@ -339,6 +346,7 @@
 				98A7D2002A001251008623B5 /* VideoListItemView.swift in Sources */,
 				9854189729FFB6080008188F /* GalleryView.swift in Sources */,
 				985418AC29FFF4AF0008188F /* HeadingView.swift in Sources */,
+				FA7782DD2A0156F8004C12D1 /* MotionAnimationView.swift in Sources */,
 				985CFCB12A0040C6004540F6 /* VideoPlayerView.swift in Sources */,
 				985CFCB62A0043E4004540F6 /* VideoPlayerHelper.swift in Sources */,
 			);
@@ -478,6 +486,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,6 +517,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
